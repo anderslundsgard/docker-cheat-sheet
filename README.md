@@ -26,11 +26,17 @@ docker image rm anderslundsgard/repo:latest
 docker container ls
 ```
 
-## Run container
+## Run container detached
 ```
 docker container run -d --name myapp -p 8000:8080 anderslundsgard/repo:latest
 ```
-*-d* = *Detached, runs in background.*
+*-d* = *Detached, runs in background. Typical option for web server etc.*
+
+## Run container interactive
+```
+docker container run -it --name testit alpine sh
+```
+*-it* = *Interactive, step into container*
 
 ## Stop container
 ```
