@@ -37,6 +37,7 @@ docker container run -d --name myapp -p 8000:8080 anderslundsgard/repo:latest
 docker container run -it --name testit alpine sh
 ```
 *-it* = *Interactive, step into container*
+*Tip: Exit from container with <Ctrl> + P + Q*
 
 ## Stop container
 ```
