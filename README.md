@@ -30,6 +30,7 @@ docker container ls
 ```
 docker container run -d --name myapp -p 8000:8080 anderslundsgard/repo:latest
 ```
+*-d* = *Detached, runs in background.*
 
 ## Stop container
 ```
