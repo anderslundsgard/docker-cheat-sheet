@@ -20,3 +20,13 @@ docker image push anderslundsgard/repo:latest
 ```
 docker image rm anderslundsgard/repo:latest
 ```
+
+## List running containers
+```
+docker container ls
+```
+
+## Run container
+```
+docker container run -d --name myapp -p 8000:8080 anderslundsgard/repo:latest
+```
