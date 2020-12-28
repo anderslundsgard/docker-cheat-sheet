@@ -30,3 +30,18 @@ docker container ls
 ```
 docker container run -d --name myapp -p 8000:8080 anderslundsgard/repo:latest
 ```
+
+## Stop container
+```
+docker container stop myapp
+```
+
+## Start container
+```
+docker container start myapp
+```
+
+## Remove container
+```
+docker container rm myapp
+```
