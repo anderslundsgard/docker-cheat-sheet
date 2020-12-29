@@ -55,3 +55,8 @@ docker container start myapp
 ```
 docker container rm myapp
 ```
+
+## Stop and remove all containers
+```
+docker container rm $(docker container ls -aq) -f
+```
