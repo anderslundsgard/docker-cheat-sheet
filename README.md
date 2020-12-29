@@ -1,5 +1,7 @@
 # docker-cheat-sheet
 
+*Container: Isolated area of an OS with resource usage limits applied.*
+
 ## List local images
 ```
 docker images
