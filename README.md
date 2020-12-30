@@ -41,6 +41,11 @@ docker container run -it --name testit alpine sh
 *-it* = *Interactive, step into container*
 *Tip: Exit from container but leave it running with \<Ctrl\> + P + Q*
 
+## Run command within an already running container
+```
+docker container exec my_container_name_or_id ls -l 
+```
+
 ## Stop container
 ```
 docker container stop myapp
