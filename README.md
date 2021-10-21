@@ -65,3 +65,8 @@ docker container rm myapp
 ```
 docker container rm $(docker container ls -aq) -f
 ```
+
+## Build an image from Dockerfile
+```
+docker build -t my-image-name .
+```
